@@ -13,15 +13,15 @@ export function StatisticsCard({ color, icon, title, value, footer }) {
       <CardHeader
         variant="gradient"
         color={color}
-        className="absolute -mt-4 grid h-16 w-16 place-items-center"
+        className="absolute -mt-8 grid h-16 w-16 place-items-center"
       >
         {icon}
       </CardHeader>
       <CardBody className="p-4 text-right">
-        <Typography variant="small" className="font-normal text-blue-gray-600">
+        <Typography variant="small" className="font-bold text-blue-gray-600">
           {title}
         </Typography>
-        <Typography variant="h4" color="blue-gray">
+        <Typography variant="h6" color="blue-gray">
           {value}
         </Typography>
       </CardBody>
